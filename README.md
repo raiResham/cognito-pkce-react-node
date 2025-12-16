@@ -13,6 +13,8 @@ Simple demo showing Amazon Cognito Hosted UI with PKCE using:
 
 ## Setup
 
+> **Note:** Run the following commands from the root of the project repository.
+
 ### Backend
 
 ```bash
