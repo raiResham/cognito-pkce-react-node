@@ -68,7 +68,7 @@ const App = () => {
     if (code) {
       fetchTokens(code);
       // Remove code from URL for clean UI
-      window.history.replaceState({}, document.title, "/");
+      // window.history.replaceState({}, document.title, "/");
     }
   }, []);
 
@@ -132,7 +132,7 @@ const App = () => {
       sessionStorage.removeItem("code_verifier");
 
       // Clean URL
-      window.history.replaceState({}, document.title, "/");
+      // window.history.replaceState({}, document.title, "/");
     } catch (err) {
       console.error("Error fetching tokens:", err);
     }
